@@ -1,7 +1,17 @@
 from django import forms
 
 
-class PostForm(forms.Form):
-    title = forms.CharField(label="제목")
-    content = forms.CharField(label="내용", widget=forms.Textarea)
-    writer = forms.CharField(label="작성자")
+GUGUDAN_CHOICES = [
+    ('2', '2단'),
+    ('3', '3단'),
+    ('4', '4단'),
+    ('5', '5단'),
+    ('6', '6단'),
+    ('7', '7단'),
+    ('8', '8단'),
+    ('9', '9단'),
+]
+
+
+class GugudanForm(forms.Form):
+    dan = forms.CharField(label="출력할 단", widget=forms.RadioSelect(choices=GUGUDAN_CHOICES))

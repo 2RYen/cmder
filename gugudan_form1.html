@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>구구단 출력(form1)</h2>
+    <form action="{% url 'gugudan_form1_proc' %}" method="post">
+        {% csrf_token %}
+        출력할 단 : <input type="radio" name="dan" value="2"> 2단
+            <input type="radio" name="dan" value="3"> 3단
+            <input type="radio" name="dan" value="4"> 4단
+            <input type="radio" name="dan" checked value="5"> 5단
+            <input type="radio" name="dan" value="6"> 6단
+            <input type="radio" name="dan" value="7"> 7단
+            <input type="radio" name="dan" value="8"> 8단
+            <input type="radio" name="dan" value="9"> 9단
+        <input type="submit" value="출력">
+    </form>
+</body>
+</html>

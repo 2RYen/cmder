@@ -1,0 +1,172 @@
+|CTAG_1667111489_421791843_8756_0
+|d C:\html\cmder\pro20221030
+pwd
+|s
+cd C:\html\cmder\pro20221030
+ls
+|env\Scripts\activate.bat 
+python install django
+|ip install django
+|ip list
+|ython -m pip install --upgrade pip
+|ip list
+|jango-admin startproject django_prj .
+|ython manage.py createsuperuser
+|ython manage.py migrate
+|ython manage.py createsuperuser
+|ython manage.py startapp blog
+python manage.py startapp blog_cbv
+|ython manage.py makemigrations
+|ython manage.py makemigrations
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py runserver
+cd C:\html\cmder\pro20221106
+|env\Scripts\activate.bat
+|ip install django
+|ython -m pip install --upgrade pip
+|jango-admin startproject django_prj .
+|ython manage.py createsuperuser
+|ython manage.py migrate
+|ython manage.py createsuperuser
+|ython manage.py runserver
+|ython manage.py startapp blog
+|ython manage.py startapp utility
+|ython manage.py runserver
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py runserver
+|ython manage.py makemigrations
+|ython manage.py makemigrations
+|ython manage.py makemigrations
+|ython manage.py makemigrations
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py runserver
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py runserver
+|d C:\html\cmder\pro20221113
+|env\Scripts\activate.bat
+|ip list
+python -m pip install --upgrade pip
+pip install django
+|ip list
+django-admin startproject django_prj .
+|ython manage.py migrate
+|ython manage.py createsuperuser
+|ython manage.py runserver
+python manage.py startapp utility
+python manage.py startapp blog
+|ython manage.py runserver
+cd C:\html\cmder\pro20221120
+|env\Scripts\activate.bat
+|d C:\html\cmder\pro20221113
+|d C:\html\cmder\pro20221113
+|d C:\html\cmder\pro20221113
+|env\Scripts\activate.bat
+|ython manage.py runserver
+pip list
+|ython manage.py migrate
+|ython manage.py makemigrate
+|ython manage.py makemigration
+|ython manage.py runserver
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py runserver
+cd C:\html\cmder\pro20221113
+|env\Scripts\activate.bat 
+|ython manage.py runserver
+|ython manage.py runserver
+|d pro20221113
+|env\Scripts\activate.bat 
+python manage.py startapp blog2
+|ython manage.py makemigrations
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py runserver
+python manage.py createsuperuser
+|ython manage.py runserver
+|d pro20221113
+|env\Scripts\activate.bat 
+python manage.py migrations
+|ython manage.py migrate
+|ython manage.py makemigrations
+|ython manage.py runserver
+|ython manage.py runserver
+|ython manage.py runserver
+|ython manage.py runserver
+|d pro20221113
+|env\Scripts\activate.bat
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py runserver
+|d pro20221113
+|env\Scripts\activate.bat
+|ython manage.py runserver
+python manage.py startapp member
+|ython manage.py makemigrations
+|ython manage.py makemigration
+python manage.py makemigrate
+|ython manage.py makemigrations
+|ython manage.py makemigrations
+python manage.py mmigrate
+|ython manage.py migrate
+|ython manage.py runserver
+|ython manage.py runserver
+|d pro20221113
+|env\Scripts\activate.bat
+|ython manage.py migrate
+|ython manage.py makemigration
+|ython manage.py makemigrations
+|ython manage.py runserver
+|ython manage.py runserver
+|d pro20221113
+|env\Scripts\activate.bat 
+python manage.py startapp person
+|d pro20221113
+venv\Scripts\activate.bat
+|ython manage.py runserver
+.idea\
+|ython manage.py runserver
+|ython manage.py makemigrations
+|d pro20221113
+|env\Scripts\activate.bat 
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py runserver
+|ython manage.py runserver
+|ython manage.py makemigrations
+|ython manage.py migrate
+|ython manage.py runserver
+|d pro20221113
+|env\Scripts\activate.bat 
+|ython manage.py runserver
+|d pro20221113
+|env\Scripts\activate.bat 
+|ython manage.py runserver
+python manage.py makemigration
+python manage.py makemigrations
+python manage.py migrate
+|ython manage.py runserver
+pip install googletrans
+|ip install googletrans==4.0.0-rc
+pip install googletrans==4.0.0-rc
+pip install googletrans==4.0.0-rc1
+cd utility\
+dir
+|ython translate_test.py 
+|ython translate_test.py 
+|ython translate_test.py 
+|ython translate_test.py 
+|ython translate_test.py 
+python translate_test.py 
+|ython manage.py runserver
+cd ..
+|ython manage.py runserver
+cd pro20221113
+venv\Scripts\activate.bat 
+|ython manage.py runserver
+|ython utility\translate_papago.py 
+python utility\translate_papago.py 
+python manage.py runserver
