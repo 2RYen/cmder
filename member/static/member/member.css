@@ -1,0 +1,47 @@
+#regForm{
+  display: flex;
+  justify-content: center;
+}
+#regForm table {
+  /* border: 1px solid red; */
+}
+#regForm table caption,
+#list caption {
+  font-size: 30px;
+  padding: 10px;
+}
+#regForm table td {
+  text-align: center;
+  border: 1px dotted gray;
+  height: 30px;
+  padding: 5px 0;
+}
+#regForm table td:nth-child(1) {
+  width: 100px;
+}
+#regForm table td:nth-child(2) {
+  width: 300px;
+}
+#regForm table input[type=text],
+#regForm table input[type=password],
+#regForm table input[type=submit],
+#regForm table select {
+  width: 98%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#list {
+  text-align: center;
+  width: 800px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+#list td {
+  border: 1px dotted gray;
+}
+
+#list tr td:nth-of-type(7){
+  width: 200px;
+}

@@ -1,0 +1,25 @@
+ /* bootstrap 속성 */
+ .container {
+  border: 1px solid lightgray;
+ }
+tr {
+  /* border: 1px solid red;   */
+  vertical-align: middle;
+  text-align: center;
+}
+
+ /* my 속성 */
+ .my-center {
+  text-align: center;
+ }
+ .my-padding {
+  padding-top: 5px;
+  box-sizing: border-box;
+ }
+ .my-extends {
+  display: block;  
+  width: inherit;
+ }
+ h2 {
+  text-align: center;
+ }

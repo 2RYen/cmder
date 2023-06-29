@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid blue; */
+  padding-top: 50px;
+}
+.container {
+  /* border: 1px solid red; */
+  text-align: center;
+}
+.container input[type=submit] {
+  margin-top: 20px;
+  width: 100%;
+}
+table#type1 {
+  width: 400px;
+}
+table#type1 th {
+  width: 100px;
+  text-align: center;
+}
+table#type1 td {
+  width: 300px;
+  /* border: 1px solid blue; */
+}
+table#type1 label {
+  /* border: 1px solid red; */
+}
+table#type1 input,
+table#type1 textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+/* td, th {
+  border: 1px solid blue;  
+  padding-top: 0;
+} */

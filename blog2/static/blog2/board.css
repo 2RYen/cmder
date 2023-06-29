@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+}
+.container1,
+.container2 {
+  display: inline-block;
+}
+.container1 table {
+  width: 400px;
+}
+.container1 td {
+  border: 1px dotted gray;
+}
+.container1 input[type=text],
+.container1 textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: royalblue;
+  color: white;
+  outline: none;
+  border: 0px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.container2 table {
+  width: 700px;
+}
+.container2 table th {
+  background-color: rgba(0, 0, 139, 0.8);
+  color: white;
+}
+.container2 table th:nth-of-type(2) {
+  width: 300px;
+}
+.container2 table th:nth-of-type(5) {
+  width: 150px;
+}
+.container2 table td {
+  background-color: royalblue;
+  color: white;
+}
